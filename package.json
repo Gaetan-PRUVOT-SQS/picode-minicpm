@@ -1,0 +1,11 @@
+{
+	"name": "picode-minicpm",
+	"private": true,
+	"description": "Stack de code locale : agent pi sur MiniCPM-V 4.7 servi par llama.cpp",
+	"scripts": {
+		"test": "node --test agent/extensions/test-xai-compaction.mjs && bats outils/test-essai-serveur.bats"
+	},
+	"devDependencies": {
+		"@earendil-works/pi-coding-agent": "1.4.0"
+	}
+}
