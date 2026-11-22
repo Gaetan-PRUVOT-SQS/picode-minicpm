@@ -2,7 +2,7 @@
 
 # picode-minicpm
 
-Une pile de code 100 % locale : l'[agent pi](https://github.com/badlogic/pi-mono) pilotant **MiniCPM-V 4.7** (35B-A3B MoE, quant IQ2_XXS) via un serveur llama.cpp sur un hybride GPU portable 4 Go + CPU — avec décodage spéculatif par n-grammes sans draft, ubatch de préfill surdimensionné et une extension de compactage de contexte façon xAI.
+Une pile de code 100 % locale : l'[agent pi](https://github.com/badlogic/pi-mono) pilotant **MiniCPM-V 4.7** (35B-A3B MoE, quant IQ2_XXS) via un serveur llama.cpp sur un hybride GPU portable 4 Go + CPU avec décodage spéculatif par n-grammes sans draft, ubatch de préfill surdimensionné et une extension de compactage de contexte façon xAI.
 
 Pas de cloud, pas de clé d'API, pas de changement de GPU : la même machine va 1,6× plus vite de bout en bout après les optimisations documentées ci-dessous.
 
